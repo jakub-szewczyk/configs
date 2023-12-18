@@ -1,7 +1,1 @@
-require "jakubszewczyk.options"
-require "jakubszewczyk.keymaps"
-require "jakubszewczyk.plugins"
-require "jakubszewczyk.nvim-cmp"
-require "jakubszewczyk.mason"
-require "jakubszewczyk.lsp"
--- require "jakubszewczyk.coc"
+require("jakubszewczyk")
