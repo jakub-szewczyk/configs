@@ -8,6 +8,8 @@ vim.g.maplocalleader = " "
 
 keymap("n", "<C-d>", "<C-d>zz", opts)
 keymap("n", "<C-u>", "<C-u>zz", opts)
+keymap("n", "{", "{zz", opts)
+keymap("n", "}", "}zz", opts)
 keymap("n", "<leader>y", '"+y', opts)
 keymap("n", "<leader>Y", 'gg"+yG', opts)
 keymap("n", "<C-n>", ":NvimTreeToggle<CR>", opts)
