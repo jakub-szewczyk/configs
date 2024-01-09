@@ -67,6 +67,7 @@ require("lazy").setup({
 		build = "make install_jsregexp",
 		dependencies = { "rafamadriz/friendly-snippets" },
 	},
+	{ "tpope/vim-surround" },
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",
@@ -75,8 +76,11 @@ require("lazy").setup({
 	{
 		"windwp/nvim-ts-autotag",
 	},
+	{ "norcalli/nvim-colorizer.lua" },
+	{ "hiphish/rainbow-delimiters.nvim" },
 	{ "lukas-reineke/indent-blankline.nvim", main = "ibl", opts = {} },
 	{ "lewis6991/gitsigns.nvim" },
+	{ "tpope/vim-fugitive" },
 	{
 		"numToStr/Comment.nvim",
 		opts = {},
