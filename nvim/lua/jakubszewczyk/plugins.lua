@@ -68,6 +68,7 @@ require("lazy").setup({
 		dependencies = { "rafamadriz/friendly-snippets" },
 	},
 	{ "tpope/vim-surround" },
+	{ "tpope/vim-abolish" },
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",
