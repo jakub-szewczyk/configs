@@ -1,0 +1,16 @@
+services:
+  nginx:
+    image: nginx
+    container_name: nginx
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - example_default
+    restart: always
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/ssl:/etc/nginx/ssl
+networks:
+  example_default:
+    external: true
