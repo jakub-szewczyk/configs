@@ -9,8 +9,8 @@ services:
       - example_default
     restart: always
     volumes:
-      - ./nginx/conf.d:/etc/nginx/conf.d
-      - ./nginx/ssl:/etc/nginx/ssl
+      - ./conf.d:/etc/nginx/conf.d
+      - ./ssl:/etc/nginx/ssl
 networks:
   example_default:
     external: true
